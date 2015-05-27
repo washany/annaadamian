@@ -265,6 +265,7 @@ a:focus {
 
 .download-section {
     width: 100%;
+    height: 516px;
     padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
