@@ -1,0 +1,10 @@
+/* Demo */
+#main {
+    padding: 20px;
+}
+#main.loading {
+    background: url('../images/loading.gif') no-repeat 50% 40px;
+}
+#main.loading .metro_gallery {
+    opacity: 0;
+}
