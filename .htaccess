@@ -2,3 +2,6 @@ AuthType Basic
 AuthName "Password Protected Area"
 AuthUserFile .htpasswd
 Require valid-user
+<Files *.*>
+Header add "Cache-Control" "max-age=604800"
+</Files>
